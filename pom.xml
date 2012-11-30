@@ -16,7 +16,7 @@
 
 	<description>Java support for DataTables.net</description>
 	<scm>
-		<url>scm:svn:https://jdatatables.googlecode.com/svn/trunk/</url>
+		<url>scm:svn:http://jdatatables.googlecode.com/svn/trunk/</url>
 		<connection>scm:svn:https://jdatatables.googlecode.com/svn/trunk/</connection>
 		<developerConnection>scm:svn:https://jdatatables.googlecode.com/svn/trunk/</developerConnection>
 	</scm>
