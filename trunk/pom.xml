@@ -1,33 +1,43 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.google.code</groupId>
-  <artifactId>jdatatables</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+	<groupId>com.googlecode.jdatatables</groupId>
+	<artifactId>jdatatables</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 
-  <name>jdatatables</name>
-  <url>http://code.google.com/p/jdatatables/</url>
+	<name>jdatatables</name>
+	<url>http://code.google.com/p/jdatatables/</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 
-  <description>Java support for DataTables.net</description>
-  <scm>
-  	<url>scm:svn:http://jdatatables.googlecode.com/svn/trunk/</url>
-  </scm>
-  <issueManagement>
-  	<url>https://xp-dev.com/trac/mastermoney</url>
-  	<system>code.google.com</system>
-  </issueManagement>
-  <dependencies>
-  	<dependency>
-  		<groupId>javax.servlet</groupId>
-  		<artifactId>servlet-api</artifactId>
-  		<version>2.2</version>
-  		<scope>provided</scope>
-  	</dependency>
-  </dependencies>
+	<description>Java support for DataTables.net</description>
+	<scm>
+		<url>scm:svn:http://jdatatables.googlecode.com/svn/trunk/</url>
+	</scm>
+	<issueManagement>
+		<url>https://xp-dev.com/trac/mastermoney</url>
+		<system>code.google.com</system>
+	</issueManagement>
+	<distributionManagement>
+		<repository>
+			<id>google-maven-snapshot-repository</id>
+			<name>Google Maven Snapshot Repository</name>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</distributionManagement>
+	<dependencies>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.2</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 </project>
