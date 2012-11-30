@@ -1,4 +1,4 @@
-package com.google.code.jdatatables;
+package com.googlecode.jdatatables;
 
 import java.util.ArrayList;
 import java.util.List;

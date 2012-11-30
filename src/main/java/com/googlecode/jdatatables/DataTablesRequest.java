@@ -1,4 +1,4 @@
-package com.google.code.jdatatables;
+package com.googlecode.jdatatables;
 
 
 public class DataTablesRequest {
