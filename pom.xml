@@ -17,6 +17,7 @@
 	<description>Java support for DataTables.net</description>
 	<scm>
 		<url>scm:svn:http://jdatatables.googlecode.com/svn/trunk/</url>
+		<developerConnection>scm:svn:http://jdatatables.googlecode.com/svn/trunk/</developerConnection>
 	</scm>
 	<issueManagement>
 		<url>https://xp-dev.com/trac/mastermoney</url>
