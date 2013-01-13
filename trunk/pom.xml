@@ -7,7 +7,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.googlecode.jdatatables</groupId>
 	<artifactId>jdatatables</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<packaging>jar</packaging>
 
 	<name>jdatatables</name>
@@ -19,9 +19,9 @@
 
 	<description>Java support for DataTables.net</description>
 	<scm>
-		<url>scm:svn:http://jdatatables.googlecode.com/svn/trunk/</url>
-		<connection>scm:svn:https://jdatatables.googlecode.com/svn/trunk/</connection>
-		<developerConnection>scm:svn:https://jdatatables.googlecode.com/svn/trunk/</developerConnection>
+		<url>scm:svn:http://jdatatables.googlecode.com/svn/tags/0.0.2</url>
+		<connection>scm:svn:https://jdatatables.googlecode.com/svn/tags/0.0.2</connection>
+		<developerConnection>scm:svn:https://jdatatables.googlecode.com/svn/tags/0.0.2</developerConnection>
 	</scm>
 	<issueManagement>
 		<url>http://code.google.com/p/jdatatables/</url>
